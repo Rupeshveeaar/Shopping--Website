@@ -3,16 +3,14 @@ from django.contrib.auth.models import User
 from django.core.validators import MaxValueValidator,MinValueValidator
 from django.utils.html import format_html
 STATE_CHOICES=(
-    ('Andaman & Nicobar Islands','Andaman & Nicobar Islands'),
     ('Andhra Pradesh','Andhra Pradesh'),
     ('Assam','Assam'),
     ('Bihar','Bihar'),
-    ('Chandigarh','Chandigarh'),
-    ('Chhattisgarh','Chhattisgarh'),
-    ('Dadra','Dadra'),
+    ('Delhi','Delhi'),
+    ('Gujrat','Gujrat'),
+    ('Haryana','Haryana'),
     ('Utter Pradesh','Utter Pradesh'),
-    ('Ghaziabad','Ghaziabad'),
-    ('Dasna','Dasna'),
+    ('Maharashtra','Maharashtra'),
 )
 
 

@@ -5,7 +5,7 @@
 <div class="container">
  <div class="row mt-5">
   <div class="col-sm-6">
-    <h4>Order Summary</h4>
+    <h4 class="text-danger">Order Summary</h4>
     <hr>
     {% for item in cart_items %}
       <div class="card mb-2">
@@ -16,11 +16,11 @@
         </div>
       </div>
       {% endfor %}
-      <p class="fw-bold">Total Cost + Rs. 70 = {{totalamount}}</p>
+      <p class="fw-bold text-danger">Total Cost + Rs. 70 = {{totalamount}}</p>
     <small>Term and Condition: Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam saepe! Iure optio repellat dolor velit, minus rem. Facilis cumque neque numquam laboriosam, accusantium adipisci nisi nihil in et quis?</small>
   </div>
   <div class="col-sm-4 offset-sm-1">
-    <h4>Select Shipping Address</h4>
+    <h4 class="text-danger">Select Shipping Address</h4>
     <hr>
     <form action="/paymentdone">
       {% for add in add %}

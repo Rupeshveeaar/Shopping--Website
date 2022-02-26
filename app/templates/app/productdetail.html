@@ -8,7 +8,7 @@
    <img src="/media/{{product.product_image}}" alt="" class="img-fluid img-thumbnail">
   </div>
   <div class="col-sm-5 offset-sm-1">
-   <h2>Product Title: {{product.title}}</h2>
+   <h2 class="text-info">{{product.title}}</h2>
    <hr>
    <p>{{product.descripiton}}</p> <br>
    <h4>Rs. {{product.descounted_price}}<small class="fw-light text-decoration-line-through">{{product.selling_price}}</small></h4> <br>
@@ -19,8 +19,8 @@
         </button>
     </form>
   
-   <a href="{% url 'buy-now' %}" class="btn btn-danger shadow px-5 py-2 ms-4">Buy Now</a>
-   <h5 class="mt-5">Available Offers</h5>
+   <a href="{% url 'buy-now' %}" class="btn btn-warning shadow px-5 py-2 ms-4">Buy Now</a>
+   <h5 class="mt-5 text-danger">Available Offers</h5>
    <ul>
     <li>Bank Offer 5% Unlimited Cashback on Flipkart Axis Bank Credit</li>
     <li>Special Price Get extra ₹3000 off (price inclusive of discount)</li>
