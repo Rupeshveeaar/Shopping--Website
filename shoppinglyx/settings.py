@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-#bsqosr*pc*s&(&*l8@@pbh02q^gti_09v7x6l_^d0mivw)2z2'
+SECRET_KEY = 'django-insecure-#bsqosr*pc*s&(&*l8@@pbh02q^gti_09v7x6l_^d0mivw)2e8967ytr7667sz2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app',
+
 ]
 
 MIDDLEWARE = [
@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'shoppinglyx.urls'
+ROOT_URLCONF = 'trademax.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'shoppinglyx.wsgi.application'
+WSGI_APPLICATION = 'trademax.wsgi.application'
 
 
 # Database
